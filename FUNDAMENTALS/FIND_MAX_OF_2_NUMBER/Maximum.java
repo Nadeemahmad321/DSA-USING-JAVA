@@ -1,4 +1,5 @@
-package FIND_MAX_OF_2_NUMBER; 
+package FUNDAMENTALS.FIND_MAX_OF_2_NUMBER;
+ 
 
 import java.util.Scanner;  
 

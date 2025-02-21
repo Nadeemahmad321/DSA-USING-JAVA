@@ -1,4 +1,4 @@
-package SIMPLE_INTEREST; 
+package FUNDAMENTALS.SIMPLE_INTEREST; 
 
 import java.util.Scanner; 
 

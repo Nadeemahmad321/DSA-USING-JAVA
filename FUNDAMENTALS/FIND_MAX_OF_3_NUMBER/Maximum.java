@@ -1,4 +1,4 @@
-package FIND_MAX_OF_3_NUMBER;  // Package name is fine; using uppercase letters is generally not recommended for package names (lowercase preferred)
+package FUNDAMENTALS.FIND_MAX_OF_3_NUMBER;  // Package name is fine; using uppercase letters is generally not recommended for package names (lowercase preferred)
 
 import java.util.Scanner;  // Import Scanner class to get user input from console
 
