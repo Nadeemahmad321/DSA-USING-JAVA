@@ -1,4 +1,4 @@
-package AVERAGE_OF_N_NUMBER;
+package FUNDAMENTALS.AVERAGE_OF_N_NUMBER;
 import java.util.Scanner;
 
 public class Average {
