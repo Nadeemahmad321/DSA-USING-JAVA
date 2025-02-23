@@ -1,8 +1,8 @@
-package PATTERNS.INVERTED_RIGHT_ANGLE_TRIANGLE_PATTERN;
+package PATTERNS.RIGHT_ANGLE_NUMBER_TRIANGLE;
 import java.util.Scanner;
 
-public class Inverted {
-    public static void main(String[] args) {
+public class Number {
+    public static void main(String[] args){
         // Create a Scanner object to take input from the user
         Scanner sc = new Scanner(System.in);
         
@@ -11,12 +11,12 @@ public class Inverted {
         int row = sc.nextInt();  // Read the number of rows from the user
         
         // Outer loop to control the number of rows
-        for (int i = 0; i < row; i++) {
-            // Inner loop to print stars in each row
-            for (int j = 0; j < row - i; j++) {
-                System.out.print("* ");  // Print a star and a space after it
+        for (int i = 1; i <= row; i++) {
+            // Inner loop to print numbers in each row
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);  // Print numbers from 1 to i
             }
-            // Move to the next line after printing stars for each row
+            // Move to the next line after printing numbers for each row
             System.out.println();
         }
         
@@ -24,4 +24,3 @@ public class Inverted {
         sc.close();
     }
 }
-
