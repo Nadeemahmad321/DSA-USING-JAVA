@@ -7,7 +7,7 @@ public class BubbleSort {
     // Function to perform bubble sort on an array
     static void bubbleSort(int array[]) {
         // Outer loop to iterate over the entire array
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length-1; i++) {
             // Variable to track if a swap has occurred during the inner loop
             boolean isSwap = false;
 
